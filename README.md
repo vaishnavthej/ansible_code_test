@@ -7,5 +7,5 @@ Find package list at https://www.debian.org/distrib/packages#view
 - mysql db
 
 # remote host setup  
-```apt-get update && apt-get -y install python```
-reset password
+* ```apt-get update && apt-get -y install python```
+* reset password
