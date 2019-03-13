@@ -1,11 +1,14 @@
 ---
 - hosts: all
   tasks:
-  -name: Install Mysql DB
+  -name: Install mysql_db
   ansible install name= mysql status='present' status='running'
   
-  -name: Install Nginx Webserver
+  -name: Install nginx Webserver
   ansible install name= nginx status='present' status='running'
   
   -name: Install PHP
   ansible install name= php  status='present'
+  
+  -name: Install WordPress
+  ansible install name= wordpress status='present'
